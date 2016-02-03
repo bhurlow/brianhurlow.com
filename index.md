@@ -11,7 +11,9 @@ layout: default
 - [ericmelzer.com](http://ericmelzer.com/) Eric Melzer (2015) - Photography Website
 - [sharedgroundcoop.com](https://sharedgroundcoop.com/) (2012 - 2015) - eCommerce
 - [mcad](http://mcad.edu/) Minneapolis College of Art and Design (2015) - Designed and Taught Creative Coding Course
+- [Artists on the Verge](http://cargocollective.com/alisonhiltner/Survival-Tactics) (2014) - Custom Software for Art Installation
 - [startribune](http://www.startribune.com/) StarTribune (2013) – Built the "Going Out" mobile app
+- [give and take](http://give-take.org/) Give & Take Website (2013) - Designed for Give & Take Community Event
 
 ### Education
 
@@ -25,7 +27,7 @@ layout: default
 - [Vim Parinfer](https://github.com/bhurlow/vim-parinfer)
 - [Rubber](https://github.com/bhurlow/rubber)
 
-### Technologies I like
+### Technologies I <3
 
 - Clojure
 - Clojurescript

@@ -5,6 +5,12 @@ body {
   padding-left: 4rem;
   padding-top: 4rem; }
 
+a {
+  color: #3CC3C3; }
+
+a:hover {
+  color: darkblue; }
+
 #avatar {
   width: 200px; }
 
