@@ -6,10 +6,10 @@ layout: default
 
 ### Projects
 
-- StarTribune 2013 – Built the "Going Out" mobile app (in app store)
-- invisiblefriend 2014 - 2016 - Lead Engineer
-- Shared Ground Farmers Coop - Built Successful eCommerce website 
-- Minneapolis College of Art and Design - 2015 (designed curriculim)
+- Invisiblefriend (2014 - 2016) - Engineering Lead for Social Media Startup
+- Shared Ground Farmers Cooperative (2012 - 2015) - eCommerce
+- Minneapolis College of Art and Design (2015) - Designed and Taught Creative Coding Course
+- StarTribune (2013) – Built the "Going Out" mobile app
 
 ### Education
 
