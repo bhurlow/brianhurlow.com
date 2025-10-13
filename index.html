@@ -1,42 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Brian Hurlow</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
-  <div class="p-2 sm:p-4 ml-8 my-8 sm:text-2xl md:w-2/3">
-    <p>👋 Hello There 👋</p>
-    <br/>
-    <p>You've reached the personal hypertext internet webpage of Brian Hurlow</p>
-    <br/>
-    <p>I live in the wild city of <a class="cursor-pointer text-pink-500 hover:text-pink-200" href="https://goo.gl/maps/buYFxb44T4mCY6TKA">Philadelphia</a></p>
-    <p>I build technology for <a class="cursor-pointer text-yellow-500 hover:text-yellow-200" href="https://www.yellowdig.co">Yellowdig</a></p>
-    <p>I make music with <a class="cursor-pointer text-blue-500 hover:text-blue-200" href="https://carrollmusic.net">Carroll</a></p>
-    <p>code experiments are on <a class="cursor-pointer text-blue-500 hover:text-blue-200" href="https://github.com/bhurlow">github</a></p>
-    <br/>
-    <p></p>
-    <p>some things I like:</p>
-    <p>engineering managment and teams</p>
-    <p>operations/k8s/builds</p>
-    <p>system design & thinking</p>
-    <p>feedback loops</p>
-    <p>pasta</p>
-    <p>kitesurfing</p>
-    <p>disc golf</p>
-    <p>techno</p>
-    <br/>
-    <p>Have an idea? Want to talk about software engineering?
-    <br/>
-    <br/>
-    <a class="cursor-pointer text-blue-500 hover:text-blue-200" target="_blank" href="mailto:brian@brianhurlow.com">email me</a>
-    or
-    <a class="cursor-pointer text-blue-500 hover:text-blue-200" target="_blank" href="https://twitter.com/bhurlow">hmu on twitter</a>
-    or
-    <a class="cursor-pointer text-blue-500 hover:text-blue-200" target="_blank" href="https://www.linkedin.com/in/brian-hurlow-6ba189338/">link w/ me</a>
-    </p>
-    </p>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brian Hurlow</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Geist", ui-sans-serif, system-ui, -apple-system,
+          "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main Content Layout: 66/33 split -->
+    <div class="flex flex-col lg:flex-row min-h-screen">
+      <!-- Left Side: Text Content -->
+      <div class="lg:w-2/3 p-2 sm:p-4 lg:p-8 my-8 text-base sm:text-lg">
+        <p>👋 Hi</p>
+        <br />
+        <p>I'm Brian Hurlow</p>
+        <p>I'm a programmer, designer and music maker</p>
+        <p>
+          I live in
+          <a
+            class="cursor-pointer text-pink-500 hover:text-pink-200"
+            target="_blank"
+            href="https://goo.gl/maps/buYFxb44T4mCY6TKA"
+            >Philadelphia</a
+          >
+        </p>
+        <p>
+          I'm currently the V.P. of Technology at
+          <a
+            class="cursor-pointer text-yellow-500 hover:text-yellow-200"
+            target="_blank"
+            href="https://www.yellowdig.co"
+            >Yellowdig</a
+          >
+        </p>
+        <p>
+          I make music with
+          <a
+            class="cursor-pointer text-blue-500 hover:text-blue-200"
+            target="_blank"
+            href="https://linktr.ee/carrollmusic"
+            >Carroll</a
+          >
+        </p>
+        <p>
+          code experiments are on
+          <a
+            class="cursor-pointer text-blue-500 hover:text-blue-200"
+            target="_blank"
+            href="https://github.com/bhurlow"
+            >Github</a
+          >
+        </p>
+        <br />
+        <p></p>
+        <p>currently hacking on:</p>
+        <p>loudspeaker design and build</p>
+        <p>
+          drum
+          <a
+            class="cursor-pointer text-blue-500 hover:text-blue-200"
+            target="_blank"
+            href="https://libgooey-react.fly.dev/"
+            >synthesis</a
+          >
+        </p>
+        <p>CI/CD platforms and automation</p>
+        <br />
+        <p>
+          Have an idea? Want to talk about software engineering?
+          <br />
+          <br />
+          <a
+            class="cursor-pointer text-blue-500 hover:text-blue-200"
+            target="_blank"
+            href="mailto:brian@brianhurlow.com"
+            >email me: brian at brianhurlow dot com</a
+          >
+        </p>
+      </div>
+
+      <!-- Right Side: Photo Collage -->
+      <div class="lg:w-1/3 flex justify-center">
+        <div class="grid grid-cols-3 lg:grid-cols-2 gap-1 p-1">
+          <!-- Photo 1 - Top left -->
+          <img
+            src="images/resized/ferry.png"
+            alt="Photo 1"
+            class="w-56 h-56 sm:w-full sm:h-full object-cover rounded-md shadow-xl"
+          />
+
+          <!-- Photo 2 - Top right -->
+          <img
+            src="images/resized/icecream.png"
+            alt="Photo 2"
+            class="w-56 h-56 sm:w-full sm:h-full object-cover rounded-md shadow-xl"
+          />
+
+          <!-- Photo 3 - Bottom left -->
+          <img
+            src="images/resized/portrait_cropped.png"
+            alt="Photo 3"
+            class="w-56 h-56 sm:w-full sm:h-full object-cover rounded-md shadow-xl"
+          />
+
+          <!-- Photo 4 - Bottom right -->
+          <img
+            src="images/resized/motionfield.png"
+            alt="Photo 4"
+            class="w-56 h-56 sm:w-full sm:h-full object-cover rounded-md shadow-xl"
+          />
+
+          <!-- Photo 5 -->
+          <img
+            src="images/resized/modular.png"
+            alt="DSCF1460"
+            class="w-56 h-56 sm:w-full sm:h-full object-cover object-center rounded-md shadow-xl"
+          />
+
+          <!-- Photo 6 -->
+          <img
+            src="images/resized/selfie.png"
+            alt="Photo 6"
+            class="w-56 h-56 sm:w-full sm:h-full object-cover object-center rounded-md shadow-xl"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
